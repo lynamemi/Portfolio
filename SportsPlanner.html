@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+	<title>SportsPlanner</title>
+
+	<!-- CSS  -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+	<!-- Scripts  -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.carousel').carousel();
+		});
+	</script>
+	<style type="text/css">
+		.subheader {
+			padding-bottom: 20px;
+			font-size: .9em;
+			line-height: 1.7em;
+		}
+
+		video {
+			width: 100%;
+		}
+
+		.github {
+			margin-left: 48%;
+			height: 4%;
+			width: 4%;
+		}
+
+		.carousel .carousel-item, .carousel-item .active  {
+			vertical-align: top;
+			margin-bottom: 150px;
+		}
+
+		.carousel {
+			margin-bottom: 50px;
+			padding: 50px;
+		}
+	</style>
+</head>
+<body>
+	<nav class="white" role="navigation">
+		<div class="nav-wrapper container">
+			<ul class="right hide-on-med-and-down">
+				<li><a href="/">Home</a></li>
+			</ul>
+
+			<ul id="nav-mobile" class="side-nav">
+				<li><a href="/">Home</a></li>
+			</ul>
+			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
+	
+	<div class="container">
+		<h1 class="center thin">SportsPlanner</h1>
+		<a href="https://github.com/AlexFloresGreer/GamePlanner"><img class="github" src="content/images/github.png"></a>
+		<p class="center light subheader">Python • Django • MySQL • Materialize</p>
+		<p class="center light subheader">For this collaborative team project, I designed most of the CSS and user interface for the project and wrote ORM queries to connect users to activities</p>
+	</div>
+
+	<div class="row">
+		<div class="col s12 m4"><p> </p></div>
+		<div class="col s12 m4">
+			<video controls>
+				<source src="content/videos/SportsPlanner_Video.mov" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+		<div class="col s12 m4"><p> </p></div>
+	</div>
+	<div class="carousel">
+		<a class="carousel-item" href="#one!"><img src="content/images/SportsPlanner/login.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/SportsPlanner/landing.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/SportsPlanner/dashboard.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/SportsPlanner/start.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/SportsPlanner/game.png"></a>
+	</div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+	<title>PlantScape</title>
+
+	<!-- CSS  -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+	<!-- Scripts  -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.carousel').carousel();
+		});
+	</script>
+	<style type="text/css">
+		.subheader {
+			padding-bottom: 20px;
+			font-size: .9em;
+			line-height: 1.7em;
+		}
+
+		video {
+			width: 50%;
+			margin-left: 25%;
+		}
+
+		.carousel .carousel-item {
+			display: none;
+			width: 12%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			vertical-align: top;
+		}
+
+		.carousel-item .active {
+			vertical-align: top;
+		}
+
+		.carousel {
+			padding: 50px;
+		}
+
+		.github {
+			margin-left: 48%;
+			height: 4%;
+			width: 4%;
+		}
+	</style>
+</head>
+<body>
+	<nav class="white" role="navigation">
+		<div class="nav-wrapper container">
+			<ul class="right hide-on-med-and-down">
+				<li><a href="/">Home</a></li>
+			</ul>
+			
+			<ul id="nav-mobile" class="side-nav">
+				<li><a href="/">Home</a></li>
+			</ul>
+			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
+
+	<div class="container">
+		<h1 class="center thin">PlantScape</h1>
+		<a href="https://github.com/lynamemi/PlantScape"><img class="github" src="content/images/github.png"></a>
+		<p class="center light subheader">Swift • CocoaPods • InterfaceBuilder • Xcode</p>
+		<p class="center light subheader">This project combines my passions for maps, plants, data, design, and programming, enabling a user to create their own plant design on their iPhone</p>
+	</div>
+
+	<div class="row">
+		<div class="col s12 m4"><p> </p></div>
+		<div class="col s12 m4">
+			<video controls>
+				<source src="content/videos/PlantScape_Video.mov" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+		<div class="col s12 m4"><p> </p></div>
+	</div>
+	<div class="carousel">
+		<a class="carousel-item" href="#one!"><img src="content/images/PlantScape/home.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/PlantScape/map.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/PlantScape/draw1.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/PlantScape/draw2.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/PlantScape/draw3.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/PlantScape/selectplant.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/PlantScape/plantimage.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/PlantScape/save.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/PlantScape/saved.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/PlantScape/photos.png"></a>
+	</div>
+</body>
+</html>

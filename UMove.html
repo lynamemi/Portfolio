@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+	<title>UMove</title>
+
+	<!-- CSS  -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+	<!-- Scripts  -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.carousel').carousel();
+		});
+	</script>
+	<style type="text/css">
+		.subheader {
+			padding-bottom: 20px;
+			font-size: .9em;
+			line-height: 1.7em;
+		}
+
+		.carousel .carousel-item {
+			display: none;
+			width: 12%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			vertical-align: top;
+		}
+
+		.carousel-item .active {
+			vertical-align: top;
+		}
+
+		.carousel {
+			margin-bottom: 50px;
+			padding: 50px;
+		}
+
+		.github {
+			margin-left: 48%;
+			height: 4%;
+			width: 4%;
+		}
+	</style>
+</head>
+<body>
+	<nav class="white" role="navigation">
+		<div class="nav-wrapper container">
+			<ul class="right hide-on-med-and-down">
+				<li><a href="/">Home</a></li>
+			</ul>
+
+			<ul id="nav-mobile" class="side-nav">
+				<li><a href="/">Home</a></li>
+			</ul>
+			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
+
+	<div class="container">
+		<h1 class="center thin">UMove</h1>
+		<a href="https://github.com/lynamemi/UMove"><img class="github" src="content/images/github.png"></a>
+		<p class="center light subheader">Swift • CoreData • InterfaceBuilder • Xcode</p>
+		<p class="center light subheader">Building a native iOS app in collaboration with the University of Montana’s Dr. James Laskin <br> that implements his method to test and track physical fitness levels of para-athletes</p>
+	</div>
+
+	<div class="carousel">
+		<a class="carousel-item" href="#one!"><img src="content/images/UMove/1.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/UMove/2.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/UMove/3.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/UMove/4.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/UMove/5.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/UMove/6.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/UMove/7.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/UMove/8.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/UMove/9.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/UMove/10.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/UMove/11.png"></a>
+		<a class="carousel-item" href="#one!"><img src="content/images/UMove/12.png"></a>
+	</div>
+</body>
+</html>
